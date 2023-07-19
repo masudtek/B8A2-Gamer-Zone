@@ -33,6 +33,7 @@
         width: 100%;
         margin: auto;
     }
+    /* gamer teams section */
     .gamer-teams-container{
         flex-direction: column;
         margin-top: 20px;

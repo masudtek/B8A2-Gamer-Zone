@@ -144,6 +144,7 @@ body{
 
 /* gamer teams styles */
 .gamer-teams{
+    margin-top: -20px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .gamer-teams-container{
@@ -165,7 +166,7 @@ body{
 }
 .gamer-teams-content{
     /* border: 2px solid tomato; */
-    /* text-align: end;  */
+    text-align: end; 
     padding-right: 240px;
     padding-top: 95px;                             ;
 }
