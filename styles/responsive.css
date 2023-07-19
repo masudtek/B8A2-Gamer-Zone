@@ -2,29 +2,57 @@
 @media screen and (max-width: 576px){
     .gamer-nav-container{
         flex-direction: column;
+        width: 100%;
     }
     .gamer-logo{
-        text-align: center;
-        margin: auto;
         margin-bottom: 20px;
+        margin: auto;
     }
     .gamer-content ul{
         flex-direction: column;
         text-align: center;
         margin: auto;
     }
+    .gamer-follow{
+        padding: 10px;
+        width: 220px;
+        margin-bottom: 100px;
+    }
     .gamer-banner{
         flex-direction:column-reverse ;
     }
     .gamer-banner-images{
         margin: auto;
-    }
+    } 
     .gamer-banner-images img{
-        width: 400px;
+        width: 500px;
+        text-align: center;
+        width: 100%;
     }
     .gamer-banner-content{
-        width: 80%;
-        margin:auto;
-        padding-left: 110px;
+        width: 100%;
+        margin: auto;
+    }
+    .gamer-teams-container{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .gamer-teams-img img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 56px;
+    }
+    .gamer-teams-content{
+        padding-right: 132px;
+        padding-top: 95px;
+    }
+    .gamer-teams-purpose{
+        text-align: center;
+    }
+    .gamer-teams-purpose-2{
+        color: #534C64;
+        font-size: 20px;
+        font-weight: 700;
     }
 }

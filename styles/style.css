@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,500;1,700&family=Work+Sans:ital,wght@0,400;0,700;0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.comgamer-banner-content/css2?family=Inter:wght@600;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,500;1,700&family=Work+Sans:ital,wght@0,400;0,700;0,800;1,800&display=swap');
 
 /* shared style */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Work Sans;
+}
+body{
+    width: 100%;
+    
 }
 /* header section style */
-.Gamer-header{
+.gamer-header-container{
     width: 100%;
-    height: 100px;
+    margin-bottom: 0px;
 }
 
 .gamer-nav-container{
@@ -59,20 +64,35 @@
 }
 
 /* Banner style start */
+/* .gamer-header-container{
+    display: block;
+} */
 
 .gamer-banner{
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    /* width: 100%;
+    margin:0 auto; */
+    max-width: 100%;
+    height: 700px;
+    
 }
 .gamer-banner-content{
-    background-image: url('/images/Group\ 14.png');
-    background-repeat: no-repeat;
-    height: 500px;
-    text-align: start;
-    padding-top: 90px;
-    padding-left: 60px;
+    position: relative;
+    margin-top: -220px;
+    width: 50%;
+    
 
+}
+.gamer-banner-content-description{
+    margin-left: 250px;
+    padding-top: 80px;
+}
+.gamer-banner-content img{
+    position:absolute;
+    height: 630px;
 }
 .gamer-banner-title{
     color: #0B0223;
@@ -94,7 +114,6 @@
     font-size: 20px;
     font-weight: 500;
     text-transform: lowercase;
-    text-align: start;
     margin-bottom: 10px;
 }
 .signin {
@@ -116,9 +135,82 @@
     border: none;
 }
 .gamer-banner-images{
-    align-items: center;
-    margin-left: -200px;
+    /* width: 50%; */
+    text-align: center;
+    margin-right: 240px;
+    /* padding-right: 240px; */
 }
 
 
-/*  */
+/* gamer teams styles */
+.gamer-teams{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-teams-container{
+    /* border: 2px solid red; */
+    margin-top: 0px;
+    display: flex;
+    height:600px;
+}
+.gamer-teams-img{
+    /* border:2px solid blue; */
+    width: 868px;
+    height: 489px;
+}
+.gamer-teams-img img{
+    width: 600px;
+    height: 300px;
+    margin-left: 250px;
+    margin-top: 95px  ;
+}
+.gamer-teams-content{
+    /* border: 2px solid tomato; */
+    /* text-align: end;  */
+    padding-right: 240px;
+    padding-top: 95px;                             ;
+}
+.gamer-teams-title{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-teams-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-gamer-know{
+    display: inline-flex;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background:  linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    border: none;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 330px;
+    text-align: end;
+}
+.gamer-teams-purpose{
+    text-align: right;
+}
+.gamer-teams-purpose-1{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.gamer-teams-purpose-2{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+}
