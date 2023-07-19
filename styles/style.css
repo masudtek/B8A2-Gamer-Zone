@@ -12,8 +12,10 @@ body{
     
 }
 /* header section style */
+.Gamer-header{
+    width: 1400px;
+}
 .gamer-header-container{
-    width: 100%;
     margin-bottom: 0px;
 }
 
@@ -144,6 +146,7 @@ body{
 
 /* gamer teams styles */
 .gamer-teams{
+    width: 1400px;
     margin-top: -20px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
@@ -214,4 +217,47 @@ body{
     color: #534C64;
     font-size: 32px;
     font-weight: 700;
+}
+/* online game section */
+.gamer-online-games{
+    width: 1400px;
+}
+.gamer-online-game-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700; 
+}
+.gamer-online-game-title-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-online-game-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.gamer-online-games{
+    margin-top: 20px;
+}
+.gamer-funny-video-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    align-items: center;
+    margin-left:70px ;
+    margin-top: 20px;
+}
+.gamer-funny-video-card img{
+    width: 342px;
+    height: 400px;
+    border-radius: 16px;
+}
+.gamer-funny-video-card-description{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
 }
