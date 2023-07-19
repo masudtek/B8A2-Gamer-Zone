@@ -13,4 +13,18 @@
         text-align: center;
         margin: auto;
     }
+    .gamer-banner{
+        flex-direction:column-reverse ;
+    }
+    .gamer-banner-images{
+        margin: auto;
+    }
+    .gamer-banner-images img{
+        width: 400px;
+    }
+    .gamer-banner-content{
+        width: 80%;
+        margin:auto;
+        padding-left: 110px;
+    }
 }
