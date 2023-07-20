@@ -1,5 +1,8 @@
 /* Responsive for small device */
 @media screen and (max-width: 576px){
+    .body{
+        width: 576px;
+    }
     .gamer-nav-container{
         flex-direction: column;
         width: 100%;
@@ -68,8 +71,22 @@
 
     .gamer--action-container{
         grid-template-columns: repeat( 3,1fr );
-        justify-content: space-around                ;
+        justify-content: center;
     }
-    
+    .footer-nav{
+        margin-top: 20px;
+    }
+
+    .footer-nav ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+    }
+    .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        gap: 10px;
+        margin-left: 80px;
+    }
 
 }

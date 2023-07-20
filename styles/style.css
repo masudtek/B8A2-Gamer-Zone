@@ -66,17 +66,11 @@ body{
 }
 
 /* Banner style start */
-/* .gamer-header-container{
-    display: block;
-} */
 
 .gamer-banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 20px; */
-    /* width: 100%;
-    margin:0 auto; */
     max-width: 100%;
     height: 700px;
     
@@ -137,10 +131,8 @@ body{
     border: none;
 }
 .gamer-banner-images{
-    /* width: 50%; */
     text-align: center;
     margin-right: 240px;
-    /* padding-right: 240px; */
 }
 
 
@@ -151,13 +143,11 @@ body{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .gamer-teams-container{
-    /* border: 2px solid red; */
     margin-top: 0px;
     display: flex;
     height:600px;
 }
 .gamer-teams-img{
-    /* border:2px solid blue; */
     width: 868px;
     height: 489px;
 }
@@ -168,7 +158,6 @@ body{
     margin-top: 95px  ;
 }
 .gamer-teams-content{
-    /* border: 2px solid tomato; */
     text-align: end; 
     padding-right: 240px;
     padding-top: 95px;                             ;
@@ -299,7 +288,6 @@ body{
 .gamer-play-images {
     display: flex;
     position: relative;
-    /* margin-right: 100px; */
 }
 .img-1{
     position: absolute;
@@ -336,31 +324,28 @@ body{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     margin-left: 240px;
-
 }
 .gamer-action-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid red; */
     width: 243px;
     height: 80px;
     gap:10px;
-    /* border-radius: 50px; */
     background: #FFF;
-    /* border: none; */
 
 }
 .gamer-action-box:hover{
     border: 2px solid red;
     border-radius: 50px;
+    color: #F948B2
 
 }
 
 /* footer section style */
 
 .footer{
-    max-width: 100;
+    max-width: 100%;
     height: 405px;
     background: #0B0223;
     padding-top: 100px;
@@ -370,7 +355,6 @@ body{
 .gamer-logo{
     justify-content: center;
     margin-bottom: 40px;
-    /* margin-left: auto; */
 }
 .gamer-logo h3{
     font-size: 45px;
